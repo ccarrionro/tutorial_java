@@ -1,9 +1,8 @@
 package com.baeldung.web.controller;
 
+import io.restassured.RestAssured;
 import org.junit.jupiter.api.Test;
 import org.springframework.http.HttpStatus;
-
-import io.restassured.RestAssured;
 
 public class SampleControllerLiveTest {
 

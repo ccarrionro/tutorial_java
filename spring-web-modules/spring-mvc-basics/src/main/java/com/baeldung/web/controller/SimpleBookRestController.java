@@ -1,11 +1,10 @@
 package com.baeldung.web.controller;
 
+import com.baeldung.model.Book;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-
-import com.baeldung.model.Book;
 
 @RestController
 @RequestMapping("books-rest")
